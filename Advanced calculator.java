@@ -74,6 +74,7 @@ public class ArithmeticDemo {
             System.out.println("Percentage ::"+ percentage);
 				
 			case 'f':
+			System.out.println("Successfull");
 				System.exit(0);
 				break;
 				
