@@ -6,6 +6,9 @@ public class ArithmeticDemo {
 		
 		Scanner s = new Scanner(System.in);
 		int n1,n2;
+		float percentage;
+        float total_marks;
+        float scored;
 		int ans=1, c=0;
 		char choice;
 		
@@ -62,8 +65,15 @@ public class ArithmeticDemo {
 					System.out.println(n1+" / "+n2+" = "+c);
 				}
 				break;
+
+            case 'e':
+			System.out.println("Enter total marks ::");
+            total_marks = sc.nextFloat();
+
+            percentage = (float)((scored / total_marks) * 100);
+            System.out.println("Percentage ::"+ percentage);
 				
-			case 'e':
+			case 'f':
 				System.exit(0);
 				break;
 				
